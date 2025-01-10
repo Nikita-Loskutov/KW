@@ -1,0 +1,242 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color:#060A1D;
+}
+
+
+.header {
+    margin:0 auto;
+    display:flex;
+    height:25%;
+    width: 90%;
+    justify-content: center;
+
+}
+
+.header svg {
+    position:absolute;
+    margin-top:4%;
+}
+
+.header picture, .header source, .header img {
+    opacity:0.58;
+    width:100%;
+    height:25%;
+}
+
+.headerinfo {
+    position: absolute;
+    display: flex; /* Включение Flexbox */
+    flex-direction: column; /* Вертикальная ориентация элементов */
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
+    width: 50%;
+    height: 40%;
+    background: #BEC5E5BD;
+    border-radius: 30px;
+    opacity: 0.74;
+    margin-top: 15%;
+}
+
+.headerinfo h1 {
+    font-family: 'Montserrat Alternates', sans-serif; /* Шрифт */
+    font-size: 40px;
+    font-weight: 600;
+    color: #000; /* Цвет текста */
+    text-align: center; /* Центровка текста */
+    margin-bottom: 5%; /* Убираем отступы */
+    max-width:80%;
+}
+
+.headerinfo p {
+    font-family: 'Montserrat Alternates', sans-serif; /* Шрифт */
+    font-size: 32px;
+    font-weight: 400;
+    color: #000; /* Цвет текста */
+    text-align: center; /* Центровка текста */
+    margin: 10px 0 0; /* Отступ сверху */
+    max-width:75%;
+}
+
+.headerbutton {
+    font-family: 'Montserrat Alternates', sans-serif; /* Шрифт */
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    position:absolute;
+    width:18%;
+    height:15%;
+    background: #BEC5E5BD;
+    border-radius: 30px;
+    opacity: 0.74;
+    align-items: center;
+    justify-content:center;
+    margin-top:40%;
+}
+
+.headerbutton p {
+    margin-top:6%;
+}
+.headerbutton picture, .headerbutton source, .headerbutton img {
+    width:25%;
+    height:41%;
+    transform: rotate(90deg);
+    opacity:1;
+    margin-top:5%;
+}
+
+
+.headerbutton:hover {
+    background: #a5abc4bd;
+    cursor:pointer;
+
+}
+
+.headertext {
+    font-size:40px;
+    color:white;
+}
+
+.main {
+    margin: 0 auto;
+    height:100%;
+    width:90%;
+    background-color:#BEC5E5;
+}
+
+.header_main {
+    font-size:25px;
+    padding-top: 50px;
+    max-width: 65%;
+
+}
+.header_main_text_h {
+    margin:0% 0% 0% 10%;
+}
+
+
+.header_main_text_p {
+    margin:5% 0% 5% 10%;
+}
+
+.block {
+    display:flex;
+    margin: 0% 5% 5% 5%;
+    width:100%;
+
+}
+
+.img {
+    width:80%;
+    height:50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.box2 {
+    width:50%;
+    margin: 0% 0% 0% 5%;
+}
+
+.boxh {
+    width:100%;
+    font-size:25px;
+    margin-bottom: 2%;
+}
+.boxp {
+    font-family: Arial Narrow;
+    width:85%;
+    font-size:20px;
+    margin-top:5%;
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.box3 {
+    width:50%;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0% 5% 0% 0%;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    height: 45%;
+    max-height:400px;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    max-height:100%;
+}
+.slides img {
+    width: 100%;
+    height: 100%;
+}
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.slider-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.slider-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.slides > picture {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides > picture img {
+    width: 100%;
+    height: auto;
+}
+
+.boxcart {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+    position: relative;
+    padding-bottom:100px;
+}
+
+.boxcart iframe {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: inherit; /* Если max-height влияет, отключаем его */
+    border: none; /* Убираем рамку */
+}
+
+
